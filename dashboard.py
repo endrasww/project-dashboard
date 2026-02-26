@@ -5,8 +5,8 @@ import seaborn as sns
 import streamlit as st
 
 # Membaca dua data dari dataset Bike Sharing dan merubahnya menjadi DataFrame
-bike_hour = pd.read_csv("data\hour.csv")
-bike_day = pd.read_csv("data\day.csv")
+bike_hour = pd.read_csv("data/hour.csv")
+bike_day = pd.read_csv("data/day.csv")
 
 # Mapping label dan nilai kategorikal
 season_map = {1:'springer', 2:'summer', 3:'fall', 4:'winter'}
@@ -196,4 +196,5 @@ else:
 
 
 st.caption("Copyright © Endraswara Wiryawan 2026")
+
 
