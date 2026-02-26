@@ -5,7 +5,7 @@ import seaborn as sns
 import streamlit as st
 
 # Load data
-path = 'submission\data'
+path = '\data'
 
 # Membaca dua data dari dataset Bike Sharing dan merubahnya menjadi DataFrame
 bike_hour = pd.read_csv(path + "\hour.csv")
@@ -196,5 +196,6 @@ else:
     
     # Render plot ke Streamlit
     st.pyplot(cplot)
+
 
 st.caption("Copyright © Endraswara Wiryawan 2026")
